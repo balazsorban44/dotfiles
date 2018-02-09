@@ -93,6 +93,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# brightness_up() {
+#   BRIGHTNESS=$((`stdbuf -o0 xrandr --verbose | grep -m 1 -i brightness | cut -f2 -d ' '`+0.2))
+#   xrandr --output eDP-1 --brightness $((`stdbuf -o0 xrandr --verbose | grep -m 1 -i brightness | cut -f2 -d ' '`+0.2))
+# }
+# brightness_down() {
+#   BRIGHTNESS=$((`stdbuf -o0 xrandr --verbose | grep -m 1 -i brightness | cut -f2 -d ' '`-0.2))
+#   xrandr --output eDP-1 --brightness $BRIGHTNESS
+# }
+
 source ~/.bash_aliases
 
 export NVM_DIR="$HOME/.nvm"
@@ -104,3 +113,6 @@ if [ -f '/home/balazs/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/balazs/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/balazs/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# added by travis gem
+[ -f /home/balazs/.travis/travis.sh ] && source /home/balazs/.travis/travis.sh
