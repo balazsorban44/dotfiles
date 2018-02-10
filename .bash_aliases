@@ -5,10 +5,12 @@ alias b="xrandr --output eDP-1 --brightness $1"
 alias update="sudo apt update && sudo apt upgrade"
 alias install="sudo dpkg -i $1"
 alias open="nautilus ."
+alias top="vtop"
 
 # Supr lazy
 alias c="clear"
 alias s="yarn start"
+alias .="vtop"
 
 # Move around
 alias ..="cd .."

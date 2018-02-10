@@ -4,6 +4,11 @@
 
 module.exports = {
   config: {
+
+    hyperTabs: {
+        tabIconsColored: true,
+        trafficButtons: true
+     },
     // Choose either "stable" for receiving highly polished,
     // or "canary" for less polished but more frequent updates
     updateChannel: 'canary',
@@ -114,7 +119,10 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyper-statusline", "gitrocket", "hyper-monokai"],
+  plugins: ["hyper-monokai",
+            "hyper-tabs-enhanced",
+            "hyper-statusline",
+            "gitrocket"],
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',

@@ -123,7 +123,20 @@ autoload -U promptinit; promptinit
 prompt spaceship
 SPACESHIP_BATTERY_SHOW="always"
 SPACESHIP_DIR_TRUNC="5"
-SPACESHIP_DIR_COLOR="208"
 SPACESHIP_TIME_SHOW="true"
-SPACESHIP_TIME_COLOR="green"
+SPACESHIP_DIR_COLOR="208"
 SPACESHIP_GIT_BRANCH_COLOR="cyan"
+SPACESHIP_GIT_STATUS_PREFIX=" "
+SPACESHIP_GIT_STATUS_SUFFIX=""
+SPACESHIP_DIR_TRUNC="4"
+SPACESHIP_DIR_TRUNC_REPO="false"
+
+SPACESHIP_PROMPT_ORDER=(
+  dir # Current directory section
+  git # Git section (git_branch + git_status)
+  package # Package version
+  node # Node.js section
+  exec_time # Execution time
+  battery # Battery level and status
+  char # Prompt character
+)
