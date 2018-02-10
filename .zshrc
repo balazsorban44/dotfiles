@@ -121,6 +121,9 @@ fpath=($fpath "/home/balazs/.zfunctions")
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
 prompt spaceship
-SPACESHIP_TIME_SHOW="true"
 SPACESHIP_BATTERY_SHOW="always"
-
+SPACESHIP_DIR_TRUNC="5"
+SPACESHIP_DIR_COLOR="208"
+SPACESHIP_TIME_SHOW="true"
+SPACESHIP_TIME_COLOR="green"
+SPACESHIP_GIT_BRANCH_COLOR="cyan"
