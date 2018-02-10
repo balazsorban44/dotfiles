@@ -122,3 +122,5 @@ fpath=($fpath "/home/balazs/.zfunctions")
 autoload -U promptinit; promptinit
 prompt spaceship
 SPACESHIP_TIME_SHOW="true"
+SPACESHIP_BATTERY_SHOW="always"
+
