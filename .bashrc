@@ -121,3 +121,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # added by travis gem
 [ -f /home/balazs/.travis/travis.sh ] && source /home/balazs/.travis/travis.sh
+
+
+DOTFILES_REPO_PATH="~/dotfiles"

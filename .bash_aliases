@@ -33,3 +33,7 @@ alias cb="git checkout $1"
 
 # Text editor
 alias code="code ."
+
+# .
+alias dot="cd;cd dotfiles"
+alias dup="dot;add -A;git commit -m 'Changes';push;cd -"
