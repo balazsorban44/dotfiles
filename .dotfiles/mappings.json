@@ -1,0 +1,10 @@
+{
+  ".gitconfig":  "~/.gitconfig",
+  ".bash_profile":  "~/.bash_profile",
+  ".bash_aliases":  "~/.bash_aliases",
+  ".bashrc": "~/.bashrc",
+  ".hyper.js": "~/.hyper.js",
+  ".zshrc":  "~/.zshrc",
+  "brightness_down.sh": "~/brightness_down.sh",
+  "brightness_up.sh": "~/brightness_up.sh"
+}
