@@ -138,5 +138,6 @@ SPACESHIP_PROMPT_ORDER=(
   node # Node.js section
   exec_time # Execution time
   battery # Battery level and status
+  time # Show time
   char # Prompt character
 )
