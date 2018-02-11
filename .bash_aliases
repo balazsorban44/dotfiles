@@ -15,12 +15,12 @@ alias .="vtop"
 # Move around
 alias ..="cd .."
 alias ...="cd ../.."
-alias pr="cd;cd projects"
-alias dl="cd;cd Downloads"
+alias pr="cd ~/projects"
+alias dl="cd ~/Downloads"
 alias mc="mkdir $1 && cd $1"
 
 # Personal
-alias ww="pr;cd workzilla/web"
+alias ww="cd ~/projects/workzilla/web"
 
 # Git related
 alias gs="git status"
@@ -35,5 +35,5 @@ alias cb="git checkout $1"
 alias code="code ."
 
 # .
-alias dot="cd;cd dotfiles"
+alias dot="cd ~/dotfiles"
 alias dup="dot;add -A;git commit -m 'Changes';push;cd -"
