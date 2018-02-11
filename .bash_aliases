@@ -36,7 +36,7 @@ alias code="code ."
 
 # .
 alias dot="cd ~/dotfiles"
-alias dup="dot;add -A;git commit -m 'Changes';push;cd -"
+alias dup="dot;add -A;git commit -m ':robot: Lazy commit by a robot.';push;cd -"
 alias als="nano ~/dotfiles/.bash_aliases"
 alias brc="nano ~/dotfiles/.bashrc"
 alias zrc="nano ~/dotfiles/.zshrc"
