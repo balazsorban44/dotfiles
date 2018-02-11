@@ -5,5 +5,5 @@
   ".bashrc": "~/.bashrc",
   ".hyper.js": "~/.hyper.js",
   ".zshrc":  "~/.zshrc",
-  "brightness.sh": "~/brightness.sh"
+  "brightness-oled.sh": "~/brightness.sh"
 }
