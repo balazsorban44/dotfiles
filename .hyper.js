@@ -4,7 +4,7 @@
 
 module.exports = {
   config: {
-
+    hyperRun: ["hyperlayout","clear"],
     hyperTabs: {
         tabIconsColored: true,
         trafficButtons: true
@@ -123,6 +123,9 @@ module.exports = {
             "hyper-mac-controls",
             "hyper-tabs-enhanced",
             "hyper-statusline",
+   	    "hypercwd",
+	    "hyperlayout",
+            "hyper-run",
             "gitrocket"],
   keymaps: {
     // Example

@@ -11,6 +11,7 @@ alias top="vtop"
 alias c="clear"
 alias s="yarn start"
 alias .="vtop"
+alias hl="hyperlayout"
 
 # Move around
 alias ..="cd .."
