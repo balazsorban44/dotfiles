@@ -102,7 +102,8 @@ source $ZSH/oh-my-zsh.sh
 #   xrandr --output eDP-1 --brightness $BRIGHTNESS
 # }
 
-source ~/.bash_aliases
+source ~/.aliases
+source ~/.functions
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

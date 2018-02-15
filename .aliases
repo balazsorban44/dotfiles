@@ -5,7 +5,7 @@ alias b="xrandr --output eDP-1 --brightness $1"
 alias update="sudo apt update && sudo apt upgrade"
 alias install="sudo dpkg -i $1"
 alias open="nautilus ."
-alias top="vtop"
+alias ls="ls -lA"
 
 # Supr lazy
 alias c="clear"
@@ -18,12 +18,14 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias pr="cd ~/projects"
 alias dl="cd ~/Downloads"
-alias mc="mkdir $1 && cd $1"
+alias mv="mv -v"
+
 
 # Personal
 alias ww="cd ~/projects/workzilla/web"
 
 # Git related
+alias g="git"
 alias gs="git status"
 alias add="git add $1"
 alias gr="git reset --hard"
@@ -39,7 +41,8 @@ alias code="code ."
 alias dot="cd ~/dotfiles"
 alias ddown="dotfiles update"
 alias dup="dot;add -A;git commit -m ':robot: Lazy commit by a robot.';push;cd -"
-alias als="nano ~/dotfiles/.bash_aliases"
+alias als="nano ~/dotfiles/.aliases"
+alias func="nano ~/dotfiles/.functions"
 alias brc="nano ~/dotfiles/.bashrc"
 alias zrc="nano ~/dotfiles/.zshrc"
 alias hrc="nano ~/dotfiles/.hyper.js"

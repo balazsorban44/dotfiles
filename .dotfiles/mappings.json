@@ -1,8 +1,9 @@
 {
   ".gitconfig":  "~/.gitconfig",
   ".bash_profile":  "~/.bash_profile",
-  ".bash_aliases":  "~/.bash_aliases",
   ".bashrc": "~/.bashrc",
+  ".aliases":  "~/.aliases",
+  ".functions": "~/.functions",
   ".hyper.js": "~/.hyper.js",
   ".hyperlayout": "~/.hyperlayout",
   ".zshrc":  "~/.zshrc",
