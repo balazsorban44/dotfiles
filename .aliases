@@ -23,6 +23,7 @@ alias mv="mv -v"
 
 # Personal
 alias ww="cd ~/projects/workzilla/web"
+alias 44="cd ~/projects/44"
 
 # Git related
 alias g="git"

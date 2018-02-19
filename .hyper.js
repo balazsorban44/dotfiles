@@ -4,7 +4,7 @@
 
 module.exports = {
   config: {
-    hyperRun: ["hyperlayout","clear"],
+   // hyperRun: ["hyperlayout", "clear"],
     hyperTabs: {
         tabIconsColored: true,
         trafficButtons: true
