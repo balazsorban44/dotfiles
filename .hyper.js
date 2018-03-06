@@ -124,7 +124,6 @@ module.exports = {
             "hyper-statusline",
    	    "hypercwd",
 	    "hyperlayout",
-            "hyper-run",
             "gitrocket"],
   keymaps: {
     // Example
