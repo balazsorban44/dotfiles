@@ -28,6 +28,7 @@ alias 44="cd ~/projects/44"
 # Git related
 alias g="git"
 alias gs="git status"
+alias gl="git log --pretty=oneline"
 alias add="git add $1"
 alias gr="git reset --hard"
 alias pull="git pull"
