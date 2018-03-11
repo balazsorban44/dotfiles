@@ -24,6 +24,8 @@ alias mv="mv -v"
 # Personal
 alias ww="cd ~/projects/workzilla/web"
 alias 44="cd ~/projects/44"
+alias bb="cd ~/projects/bibic-vendeghazak/web"
+
 
 # Git related
 alias g="git"
