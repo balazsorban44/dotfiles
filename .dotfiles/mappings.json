@@ -8,6 +8,7 @@
   ".hyperlayout": "~/.hyperlayout",
   ".yarnrc": "~/.yarnrc",
   ".zshrc":  "~/.zshrc",
+  ".vimrc":  "~/.vimrc",
   "brightness-oled.sh": "~/brightness-oled.sh",
   "start-closed.sh": "~/start-closed.sh"
 }

@@ -5,13 +5,14 @@ alias b="xrandr --output eDP-1 --brightness $1"
 alias update="sudo apt update && sudo apt upgrade"
 alias install="sudo dpkg -i $1"
 alias open="nautilus ."
-alias ls="ls -lA"
+# alias ls="ls -lA"
 
 # Supr lazy
 alias c="clear"
 alias s="yarn start"
 alias .="vtop"
 alias hl="hyperlayout"
+alias h="hyperlayout 2"
 
 # Move around
 alias ..="cd .."
@@ -25,7 +26,7 @@ alias mv="mv -v"
 alias ww="cd ~/projects/workzilla/web"
 alias 44="cd ~/projects/44"
 alias bb="cd ~/projects/bibic-vendeghazak/web"
-
+alias ba="cd ~/projects/bibic-vendeghazak/admin"
 
 # Git related
 alias g="git"

@@ -142,3 +142,5 @@ SPACESHIP_PROMPT_ORDER=(
   time # Show time
   char # Prompt character
 )
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
