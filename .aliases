@@ -31,7 +31,7 @@ alias ba="cd ~/projects/bibic-vendeghazak/admin"
 # Git related
 alias g="git"
 alias gs="git status"
-alias gl="git log --pretty=oneline"
+alias gl="git log --oneline --color | emojify | less -r"
 alias add="git add $1"
 alias gr="git reset --hard"
 alias pull="git pull"

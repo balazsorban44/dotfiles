@@ -1,3 +1,5 @@
 [user]
 	name = Balázs Orbán
 	email = info@balazsorban.com
+[log]
+  	date = relative
