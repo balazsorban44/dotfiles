@@ -1,1 +1,0 @@
-# Dark+ Operator Mono

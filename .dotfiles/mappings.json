@@ -9,7 +9,6 @@
   ".yarnrc": "~/.yarnrc",
   ".zshrc":  "~/.zshrc",
   ".vimrc":  "~/.vimrc",
-  ".vscode": "~/.vscode",
   "brightness-oled.sh": "~/brightness-oled.sh",
   "start-closed.sh": "~/start-closed.sh"
 }
