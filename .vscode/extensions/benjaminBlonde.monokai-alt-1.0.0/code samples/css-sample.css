@@ -1,0 +1,36 @@
+@import "external2.css";
+
+@media print {
+  @page {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .foo {
+    width: 80px;
+    font-family: "Georgia", "Tahoma", serif;
+    background-image: url(hggjh.com);
+    transition: color .3s;
+  }
+}
+
+body {
+  background: black;
+  color: #80c0c0
+}
+
+a:link {color: #f88}
+
+#tagid1 {
+  padding: 20px;
+  border: 20px groove #fff;
+}
+
+.class1, #tagid2 {
+  font-family: 'comic sans ms', fantasy;
+  color: rgb(100%, 100%, 0%);
+}
+
+h1, h2, div.class5, blockquote {
+  background: #000080;
+}

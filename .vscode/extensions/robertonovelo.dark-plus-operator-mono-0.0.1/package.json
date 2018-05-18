@@ -1,0 +1,31 @@
+{
+	"name": "dark-plus-operator-mono",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RobertoNovelo/dark-plus-operator-mono.git"
+	},
+	"displayName": "Dark+ Operator Mono Theme",
+	"description": "Dark+ With Some Italics",
+	"version": "0.0.1",
+	"publisher": "robertonovelo",
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark+ Operator Mono",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dark+ Operator Mono-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "90d5bfc8-ee95-43a6-856f-fa984b397d3f",
+		"publisherId": "0ac25fe0-7bd3-49fe-854e-4b00ec299926",
+		"publisherDisplayName": "robertonovelo"
+	}
+}

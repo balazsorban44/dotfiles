@@ -122,26 +122,29 @@ fpath=($fpath "/home/balazs/.zfunctions")
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
 prompt spaceship
-SPACESHIP_BATTERY_SHOW="always"
-SPACESHIP_DIR_TRUNC="5"
-SPACESHIP_TIME_SHOW="true"
+# SPACESHIP_BATTERY_SHOW="always"
+# SPACESHIP_DIR_TRUNC="2"
+# SPACESHIP_TIME_SHOW="true"
 SPACESHIP_DIR_COLOR="208"
 SPACESHIP_GIT_BRANCH_COLOR="cyan"
 SPACESHIP_GIT_STATUS_PREFIX=" "
 SPACESHIP_GIT_STATUS_SUFFIX=""
-SPACESHIP_DIR_TRUNC="4"
-SPACESHIP_DIR_TRUNC_REPO="false"
+SPACESHIP_DIR_TRUNC="2"
+# SPACESHIP_DIR_TRUNC_REPO="false"
 
 SPACESHIP_PROMPT_ORDER=(
-  dir # Current directory section
-  git # Git section (git_branch + git_status)
-  package # Package version
-  node # Node.js section
-  exec_time # Execution time
-  battery # Battery level and status
-  time # Show time
+  # dir # Current directory section
+  # git # Git section (git_branch + git_status)
+  # package # Package version
+  # node # Node.js section
+  # exec_time # Execution time
+  # battery # Battery level and status
+  # time # Show time
   char # Prompt character
 )
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 fpath=($fpath "/home/balazs/.zfunctions")
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

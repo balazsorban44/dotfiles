@@ -1,0 +1,28 @@
+{
+	"name": "theme-monokai-dark-soda",
+	"displayName": "Monokai Dark Soda",
+	"description": "A dark theme with bright colors",
+	"version": "0.0.5",
+	"publisher": "AdamCaviness",
+	"icon": "theme-monokai-dark-soda.png",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai Dark Soda",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai-dark-soda.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "15de929b-c739-49db-86bc-b968cc6b7a5b",
+		"publisherId": "de925631-f87c-4d68-a8d8-4dde56bc19d2",
+		"publisherDisplayName": "Adam Caviness"
+	}
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve">
+  <rect fill="#21252B" width="120" height="120"/>
+  <rect x="10" y="18" fill="#F92672" width="30" height="10"/>
+  <rect x="20" y="34" fill="#F92672" width="20" height="10"/>
+  <rect x="72" y="34" fill="#F92672" width="2" height="10"/>
+  <rect x="42" y="18" fill="#A6E22E" width="30" height="10"/>
+  <rect x="50" y="82" fill="#A6E22E" width="30" height="10"/>
+  <rect x="74" y="18" fill="#F8F8F2" width="2" height="10"/>
+  <rect x="94" y="18" fill="#F8F8F2" width="2" height="10"/>
+  <rect x="80" y="82" fill="#F8F8F2" width="2" height="10"/>
+  <rect x="104" y="82" fill="#F8F8F2" width="2" height="10"/>
+  <rect x="42" y="34" fill="#F8F8F2" width="28" height="10"/>
+  <rect x="76" y="34" fill="#F8F8F2" width="16" height="10"/>
+  <rect x="98" y="18" fill="#F8F8F2" width="2" height="10"/>
+  <rect x="10" y="98" fill="#F8F8F2" width="2" height="10"/>
+  <rect x="76" y="18" fill="#FD971F" width="18" height="10"/>
+  <rect x="82" y="82" fill="#E6DB74" width="22" height="10"/>
+  <rect x="92" y="34" fill="#66D9EF" width="16" height="10"/>
+  <rect x="20" y="50" fill="#F92672" width="20" height="10"/>
+  <rect x="20" y="66" fill="#777777" width="70" height="10"/>
+  <rect x="20" y="82" fill="#F8F8F2" width="30" height="10"/>
+  <rect x="62" y="50" fill="#F92672" width="2" height="10"/>
+  <rect x="42" y="50" fill="#F8F8F2" width="18" height="10"/>
+  <rect x="66" y="50" fill="#AE81FF" width="18" height="10"/>
+</svg>

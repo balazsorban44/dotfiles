@@ -1,0 +1,44 @@
+$border-radius-value: 4px;
+
+@media screen and (max-width: 768px) {
+  .title {color: red}
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+body {
+  text-align: center;
+  > #container {
+    text-align: left;
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+
+header {
+  .title {
+    font-size: 26px;
+    margin-bottom: 26px;
+  }
+}
+
+div[role="main"] {
+  @include border-radius($border-radius-value * 1.5); 
+  border: 3px solid #000;
+  padding: 10px;
+  margin-bottom: 25px; 
+
+  .title {
+    .underline {color: #000}
+  }
+}
+
+button {
+  //leverages the buttons mixin
+  @include buttons();
+}

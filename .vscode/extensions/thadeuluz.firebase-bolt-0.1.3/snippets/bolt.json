@@ -1,0 +1,30 @@
+{
+  "Create Bolt Function": {
+    "prefix": "function",
+    "body": [
+      "$1($2) {",
+      " $3",
+      "}",
+      ""
+    ],
+    "description": "Create a Bolt function"
+  },
+  "Create Bolt type": {
+    "prefix": "type",
+    "body": [
+      "type $1 extends $2 {",
+      " $3",
+      "}"
+    ],
+    "description": "Create a Bolt type"
+  },
+  "Create Bolt path": {
+    "prefix": "path",
+    "body": [
+      "path $1 is $2 {",
+      " $3",
+      "}"
+    ],
+    "description": "Create a Bolt path"
+  }
+}

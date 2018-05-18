@@ -1,0 +1,43 @@
+{
+	"name": "monokai-alt",
+	"displayName": "Monokai Alt",
+	"description": "Modified Monokai Theme for vscode",
+	"version": "1.0.0",
+	"publisher": "benjaminBlonde",
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai Alt",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai-alt-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sarcadass/vscode-monokai-alt.git"
+	},
+	"bugs": {
+		"url": "https://github.com/sarcadass/vscode-monokai-alt/issues"
+	},
+	"homepage": "https://github.com/sarcadass/vscode-monokai-alt/blob/master/README.md",
+	"keywords": [
+		"Theme",
+		"Dark",
+		"Monokai"
+	],
+	"author": "Benjamin Blonde <sarcadass@gmail.com>",
+	"license": "MIT",
+	"__metadata": {
+		"id": "2f1f8656-c75c-40ff-b8f7-048ce9034d74",
+		"publisherId": "18b39b08-69a5-409d-9f29-07f23579c49c",
+		"publisherDisplayName": "Benjamin Blonde"
+	}
+}
