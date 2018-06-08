@@ -6,6 +6,7 @@ alias update="sudo apt update && sudo apt upgrade"
 alias install="sudo dpkg -i $1"
 alias open="nautilus ."
 # alias ls="ls -lA"
+alias temp="cat /sys/class/thermal/thermal_zone*/temp"
 
 # Supr lazy
 alias c="clear"
