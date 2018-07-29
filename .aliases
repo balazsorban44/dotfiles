@@ -52,3 +52,6 @@ alias func="nano ~/dotfiles/.functions"
 alias brc="nano ~/dotfiles/.bashrc"
 alias zrc="nano ~/dotfiles/.zshrc"
 alias hrc="nano ~/dotfiles/.hyper.js"
+
+# Dev
+alias sc="yarn start;code ."
