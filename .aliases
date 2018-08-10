@@ -2,7 +2,7 @@
 alias b="xrandr --output eDP-1 --brightness $1"
 
 # OS
-alias up="sudo apt update && sudo apt upgrade"
+alias up="sudo apt update && sudo apt upgrade && sudo apt autoremove"
 alias install="sudo dpkg -i $1"
 alias open="nautilus ."
 # alias ls="ls -lA"
@@ -54,4 +54,4 @@ alias zrc="nano ~/dotfiles/.zshrc"
 alias hrc="nano ~/dotfiles/.hyper.js"
 
 # Dev
-alias sc="yarn start;code ."
+alias cs="code .;yarn start"
