@@ -14,6 +14,7 @@ alias s="yarn start"
 alias .="vtop"
 alias hl="hyperlayout"
 alias h="hyperlayout 2"
+alias d="yarn deploy"
 
 # Move around
 alias ..="cd .."
