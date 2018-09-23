@@ -15,6 +15,7 @@ alias .="vtop"
 alias hl="hyperlayout"
 alias h="hyperlayout 2"
 alias d="yarn deploy"
+alias bacs="ba;cs"
 
 # Move around
 alias ..="cd .."
@@ -29,6 +30,7 @@ alias ww="cd ~/projects/workzilla/web"
 alias 44="cd ~/projects/44"
 alias bb="cd ~/projects/bibic-vendeghazak/web"
 alias ba="cd ~/projects/bibic-vendeghazak/admin"
+alias ntnu="pr;cd NTNU"
 
 # Git related
 alias g="git"
@@ -56,3 +58,4 @@ alias hrc="nano ~/dotfiles/.hyper.js"
 
 # Dev
 alias cs="code .;yarn start"
+alias myip="curl ifconfig.co;curl ifconfig.co/city"
