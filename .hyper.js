@@ -118,17 +118,9 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    "hyper-monokai",
-    "hyper-mac-controls",
-    "hyper-tabs-enhanced",
-    "hyper-statusline",
-    "hypercwd",
-    "hyperlayout",
-    "gitrocket",
-    //"hyperpower"
-    "hyper-pane"
-  ],
+  plugins: [//"hyper-monokai",
+  "hyper-mac-controls", "hyper-tabs-enhanced", "hyper-statusline", "hypercwd", //"hyperpower"
+  "hyperlayout", "gitrocket", "hyper-pane", "verminal"],
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',

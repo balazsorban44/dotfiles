@@ -41,6 +41,7 @@ alias gr="git reset --hard"
 alias pull="git pull"
 alias push="git push"
 alias gc="gitmoji -c"
+alias gl='git commit -m "🤖 lazy commit"'
 alias cb="git checkout $1"
 
 # Text editor
