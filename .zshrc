@@ -7,8 +7,7 @@ export ZSH=/home/balazs/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="half-life"
-
+ZSH_THEME="spaceship"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -69,7 +68,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -82,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -131,6 +130,8 @@ if [ -f '/home/balazs/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then sou
 
 # added by travis gem
 [ -f /home/balazs/.travis/travis.sh ] && source /home/balazs/.travis/travis.sh
+
+
 fpath=($fpath "/home/balazs/.zfunctions")
 
 # Set Spaceship ZSH as a prompt
@@ -139,11 +140,13 @@ prompt spaceship
 # SPACESHIP_BATTERY_SHOW="always"
 # SPACESHIP_DIR_TRUNC="2"
 SPACESHIP_TIME_SHOW="true"
+SPACESHIP_TIME_SUFFIX=" · "
 SPACESHIP_DIR_COLOR="208"
-SPACESHIP_GIT_BRANCH_COLOR="cyan"
-SPACESHIP_GIT_STATUS_PREFIX=" "
-SPACESHIP_GIT_STATUS_SUFFIX=""
 SPACESHIP_DIR_TRUNC="2"
+SPACESHIP_CHAR_SYMBOL="▲ "
+SPACESHIP_USER_SHOW="always"
+SPACESHIP_USER_PREFIX=""
+SPACESHIP_USER_COLOR="166"
 # SPACESHIP_DIR_TRUNC_REPO="false"
 
 SPACESHIP_PROMPT_ORDER=(
@@ -154,11 +157,9 @@ SPACESHIP_PROMPT_ORDER=(
   # exec_time # Execution time
   # battery # Battery level and status
   time # Show time
+  user
   char # Prompt character
 )
 
-export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/anaconda3/bin"
 fpath=($fpath "/home/balazs/.zfunctions")
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"

@@ -11,11 +11,10 @@ alias temp="cat /sys/class/thermal/thermal_zone*/temp"
 # Supr lazy
 alias c="clear"
 alias s="yarn start"
-alias .="vtop"
+alias .="vtop --theme monokai"
 alias hl="hyperlayout"
 alias h="hyperlayout 2"
 alias d="yarn deploy"
-alias bacs="ba;cs"
 
 # Move around
 alias ..="cd .."
@@ -31,6 +30,8 @@ alias 44="cd ~/projects/44"
 alias bb="cd ~/projects/bibic-vendeghazak/web"
 alias ba="cd ~/projects/bibic-vendeghazak/admin"
 alias ntnu="pr;cd NTNU"
+alias bacs="ba;cs"
+alias bbcs="bb;cs"
 
 # Git related
 alias g="git"

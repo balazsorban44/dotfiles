@@ -118,3 +118,22 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 DOTFILES_REPO_PATH="~/dotfiles"
+
+# added by travis gem
+[ -f /home/balazs/.travis/travis.sh ] && source /home/balazs/.travis/travis.sh
+# added by Anaconda3 5.3.0 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/balazs/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/home/balazs/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/balazs/anaconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/home/balazs/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<

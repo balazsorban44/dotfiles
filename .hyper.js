@@ -8,7 +8,17 @@ module.exports = {
     hyperTabs: {
         tabIconsColored: true,
         trafficButtons: true
-     },
+    },
+    hyperSpotify: {
+      position: 'bottom', // or 'bottom'
+      margin: 'double', // or 'double' or custom value
+      controlsPosition: 'default', // or 'left' or 'right'
+      theme: 'custom', // important!
+      overlayColor: 'transparent',
+      iconColor: '#FFF',
+      spotifyIconColor: '#13aa68',
+      textColor: '#FFF'
+    },
     // Choose either "stable" for receiving highly polished,
     // or "canary" for less polished but more frequent updates
     updateChannel: 'canary',
@@ -16,7 +26,7 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 12,
     // font family with optional fallbacks
-    fontFamily: '"Operator Mono Lig", "Meslo LG S for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"Operator Mono Lig"',
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(248,28,229,0.8)',
 
@@ -52,7 +62,7 @@ module.exports = {
 
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
-
+    borderRadius: '12px',
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
@@ -118,9 +128,19 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [//"hyper-monokai",
-  "hyper-mac-controls", "hyper-tabs-enhanced", "hyper-statusline", "hypercwd", //"hyperpower"
-  "hyperlayout", "gitrocket", "hyper-pane", "verminal"],
+  plugins: [
+    "hyper-spotify",
+    "hyper-statusline",
+    "hyper-tabs-enhanced",
+    "hypercwd",
+    "hyperlayout",
+    "gitrocket",
+    "hyper-snazzy",
+    "hyper-mac-controls",
+    "hyper-tab-icons",
+    "space-pull",
+    "hyper-night-owl"
+  ],
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
