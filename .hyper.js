@@ -1,7 +1,6 @@
 // Future versions of Hyper may add additional config options,
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
-
 module.exports = {
   config: {
    // hyperRun: ["hyperlayout", "clear"],
@@ -40,7 +39,7 @@ module.exports = {
     foregroundColor: '#fff',
 
     // terminal background color
-    backgroundColor: '#000',
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
 
     // border color (window, tabs)
     borderColor: '#333',
@@ -50,7 +49,7 @@ module.exports = {
 
     // custom css to embed in the terminal window
     termCSS: '',
-
+// it 
     // set to `true` (without backticks) if you're using a Linux setup that doesn't show native menus
     // default: `false` on Linux, `true` on Windows (ignored on macOS)
     showHamburgerMenu: true,
@@ -139,7 +138,8 @@ module.exports = {
     "hyper-mac-controls",
     "hyper-tab-icons",
     "space-pull",
-    "hyper-night-owl"
+    "hyper-materialshell",
+    "hyperpower"
   ],
   keymaps: {
     // Example
