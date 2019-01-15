@@ -139,7 +139,7 @@ module.exports = {
     "hyper-tab-icons",
     "space-pull",
     "hyper-materialshell",
-    "hyperpower"
+    //"hyperpower"
   ],
   keymaps: {
     // Example

@@ -29,10 +29,11 @@ alias ww="cd ~/projects/workzilla/web"
 alias 44="cd ~/projects/44"
 alias ba="cd ~/projects/bibic-vendeghazak/admin"
 alias bb="cd ~/projects/bibic-vendeghazak/web"
-alias bc="cd ~/projects/bibic-vendeghazak/cloud-functions"
+alias bc="cd ~/projects/bibic-vendeghazak/cloud-functions;code;cd functions"
 alias ntnu="pr;cd NTNU"
 alias bacs="ba;cs"
 alias bbcs="bb;cs"
+alias tms="pr;tmslite/ocr"
 
 # Git related
 alias g="git"
