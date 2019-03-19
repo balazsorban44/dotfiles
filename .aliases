@@ -37,7 +37,7 @@ alias bbcs="bb;cs"
 alias tms="pr;tmslite/ocr"
 alias ef="pr;ecatch/web"
 alias eb="pr;ecatch/backend"
-
+alias pa="pr;TDT4240-group-24"
 
 # Git related
 alias g="git"
