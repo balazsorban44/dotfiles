@@ -8,10 +8,9 @@ alias open="nautilus ."
 # alias ls="ls -lA"
 alias temp="cat /sys/class/thermal/thermal_zone*/temp"
 
-# Supr lazy
+# Super lazy
 alias c="clear"
 alias s="yarn start"
-alias .="vtop --theme monokai"
 alias hl="hyperlayout"
 alias h="hyperlayout 2"
 alias d="yarn deploy"
