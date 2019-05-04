@@ -138,7 +138,8 @@ module.exports = {
     "hyper-mac-controls",
     "hyper-tab-icons",
     "space-pull",
-    "hyper-whimsy"
+    "hyper-whimsy",
+    //"hyper-horizon-theme"
     //"hyper-materialshell",
     //"hyperpower"
   ],

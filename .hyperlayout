@@ -2,5 +2,6 @@
   "default": [[["","vtop"]]],
   "2": [[["", ""]]],
   "3": [[["", ""]], "vtop"],
-  "4": [[[[[["",""]]],"vtop"]]]
+  "4": [[[[[["",""]]],"vtop"]]],
+  "tms": [[["code", "cd server;yarn start:offline", "cd client;yarn start"]]]
 }

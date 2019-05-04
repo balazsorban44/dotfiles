@@ -143,7 +143,7 @@ SPACESHIP_TIME_SHOW="true"
 SPACESHIP_TIME_SUFFIX=" · "
 SPACESHIP_DIR_COLOR="208"
 SPACESHIP_DIR_TRUNC="2"
-SPACESHIP_CHAR_SYMBOL="▲ "
+SPACESHIP_CHAR_SYMBOL="Ⅳ "
 SPACESHIP_USER_SHOW="always"
 SPACESHIP_USER_PREFIX=""
 SPACESHIP_USER_COLOR="166"
@@ -156,9 +156,9 @@ SPACESHIP_PROMPT_ORDER=(
   # node # Node.js section
   # exec_time # Execution time
   # battery # Battery level and status
+  char # Prompt character
   time # Show time
   user
-  char # Prompt character
 )
 
 export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/anaconda3/bin"
@@ -173,3 +173,8 @@ fpath=($fpath "/home/balazs/.zfunctions")
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [[ -f /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/slss.zsh ]] && . /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/slss.zsh
+
+#sudo service postgresql start
+#sudo service redis-server start
+#export DOCKER_HOST=tcp://localhost:2375
+
