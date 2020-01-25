@@ -135,8 +135,6 @@ if [ -f '/home/balazs/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then sou
 fpath=($fpath "/home/balazs/.zfunctions")
 
 # Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
 # SPACESHIP_BATTERY_SHOW="always"
 # SPACESHIP_DIR_TRUNC="2"
 SPACESHIP_TIME_SHOW="true"
@@ -161,20 +159,4 @@ SPACESHIP_PROMPT_ORDER=(
   user
 )
 
-export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/anaconda3/bin"
-fpath=($fpath "/home/balazs/.zfunctions")
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/sls.zsh ]] && . /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/sls.zsh
-# tabtab source for slss package
-# uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/slss.zsh ]] && . /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/slss.zsh
-
-#sudo service postgresql start
-#sudo service redis-server start
-#export DOCKER_HOST=tcp://localhost:2375
-
+export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
