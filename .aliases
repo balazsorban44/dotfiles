@@ -67,7 +67,7 @@ alias vrc="vi ~/dotfiles/.vimrc"
 # Dev
 alias cs="code .;yarn start"
 alias myip="curl ifconfig.co;curl ifconfig.co/city"
-
+alias rmnm="find . -name "node_modules" -type d -prune -exec rm -rf '{}' +"
 
 # Typo
 alias zarn="yarn"
