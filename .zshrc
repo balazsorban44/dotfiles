@@ -81,7 +81,7 @@ export LANG=en_US.UTF-8
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/nhi"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -122,59 +122,36 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/balazs/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/home/balazs/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/balazs/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/balazs/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-
-# added by travis gem
-[ -f /home/balazs/.travis/travis.sh ] && source /home/balazs/.travis/travis.sh
-
-
-fpath=($fpath "/home/balazs/.zfunctions")
-
-# Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
+# # Set Spaceship ZSH as a prompt
+# autoload -U promptinit; promptinit
+# prompt spaceship
 # SPACESHIP_BATTERY_SHOW="always"
 # SPACESHIP_DIR_TRUNC="2"
 SPACESHIP_TIME_SHOW="true"
-SPACESHIP_TIME_SUFFIX=" · "
-SPACESHIP_DIR_COLOR="208"
+SPACESHIP_TIME_SUFFIX=" ◽  "
+SPACESHIP_DIR_COLOR="#7e57c25a"
 SPACESHIP_DIR_TRUNC="2"
-SPACESHIP_CHAR_SYMBOL="Ⅳ "
+SPACESHIP_CHAR_SYMBOL="⚪  "
 SPACESHIP_USER_SHOW="always"
 SPACESHIP_USER_PREFIX=""
-SPACESHIP_USER_COLOR="166"
+SPACESHIP_TIME_COLOR="#FFCA28"
+SPACESHIP_USER_COLOR="#ffa7c4"
+SPACESHIP_NODE_COLOR="#22da6e"
 # SPACESHIP_DIR_TRUNC_REPO="false"
 
 SPACESHIP_PROMPT_ORDER=(
   # dir # Current directory section
-  # git # Git section (git_branch + git_status)
   # package # Package version
-  # node # Node.js section
+  node # Node.js section
   # exec_time # Execution time
   # battery # Battery level and status
   char # Prompt character
-  time # Show time
   user
+  time # Show time
+  # git # Git section (git_branch + git_status)
 )
 
-export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/anaconda3/bin"
-fpath=($fpath "/home/balazs/.zfunctions")
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/sls.zsh ]] && . /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/sls.zsh
-# tabtab source for slss package
-# uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/slss.zsh ]] && . /home/balazs/projects/tmslite/ocr/node_modules/tabtab/.completions/slss.zsh
-
-#sudo service postgresql start
-#sudo service redis-server start
-#export DOCKER_HOST=tcp://localhost:2375
-
+export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/dotnet:$PATH"
+export DOTNET_ROOT="$HOME/dotnet"
+# fpath=($fpath "/home/balazs/.zfunctions")
+unsetopt PROMPT_SP

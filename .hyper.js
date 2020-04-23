@@ -20,12 +20,12 @@ module.exports = {
     },
     // Choose either "stable" for receiving highly polished,
     // or "canary" for less polished but more frequent updates
-    updateChannel: 'canary',
+    updateChannel: 'normal',
 
     // default font size in pixels for all tabs
     fontSize: 12,
     // font family with optional fallbacks
-    fontFamily: '"Operator Mono Lig"',
+    fontFamily: '"Operator Mono Lig", "Fira Code"',
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(248,28,229,0.8)',
 
@@ -128,7 +128,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyper-spotify",
+    // "hyper-spotify",
     "hyper-statusline",
     "hyper-tabs-enhanced",
     "hypercwd",
@@ -138,7 +138,8 @@ module.exports = {
     "hyper-mac-controls",
     "hyper-tab-icons",
     "space-pull",
-    "hyper-whimsy",
+    // "hyper-whimsy",
+    // "hyperterm-gruvbox-dark"
     //"hyper-horizon-theme"
     //"hyper-materialshell",
     //"hyperpower"

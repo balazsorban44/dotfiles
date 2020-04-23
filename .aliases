@@ -7,13 +7,16 @@ alias install="sudo dpkg -i $1"
 alias open="nautilus ."
 # alias ls="ls -lA"
 alias temp="cat /sys/class/thermal/thermal_zone*/temp"
+alias plz="sudo"
 
 # Super lazy
 alias c="clear"
 alias s="yarn start"
+alias t="yarn test"
 alias hl="hyperlayout"
 alias h="hyperlayout 2"
 alias d="yarn deploy"
+alias dd="yarn dev"
 
 # Move around
 alias ..="cd .."
@@ -21,7 +24,9 @@ alias ...="cd ../.."
 alias pr="cd ~/projects"
 alias dl="cd ~/Downloads"
 alias mv="mv -v"
-
+alias nhi="pr;@nhi"
+alias nel="pr;nel-ux-web"
+alias calc="nhi;calculators"
 
 # Personal
 alias ww="cd ~/projects/workzilla/web"
@@ -37,7 +42,9 @@ alias tms="pr;tmslite/tmslite;hyperlayout tms"
 alias ef="pr;ecatch/web"
 alias eb="pr;ecatch/backend"
 alias pa="pr;TDT4240-group-24"
-
+alias op="pr;order-pages"
+alias ui="pr;ui"
+alias zarn="yarn"
 
 # Git related
 alias g="git"
