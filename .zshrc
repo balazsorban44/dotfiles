@@ -151,11 +151,7 @@ SPACESHIP_PROMPT_ORDER=(
   # git # Git section (git_branch + git_status)
 )
 
-<<<<<<< HEAD
 export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/dotnet:$PATH"
 export DOTNET_ROOT="$HOME/dotnet"
 # fpath=($fpath "/home/balazs/.zfunctions")
 unsetopt PROMPT_SP
-=======
-export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
->>>>>>> 16bb1e6139108a78210baed9506899cb56da76ba
