@@ -8,8 +8,12 @@
   ".hyperlayout": "~/.hyperlayout",
   ".yarnrc": "~/.yarnrc",
   ".zshrc":  "~/.zshrc",
+<<<<<<< HEAD
   ".vimrc":  "~/.vimrc",
   "brightness-oled.sh": "~/brightness-oled.sh",
   "start-closed.sh": "~/start-closed.sh",
   ".quokka": "~/.quokka/config.json"
+=======
+  "brightness-oled.sh": "~/brightness-oled.sh"
+>>>>>>> 16bb1e6139108a78210baed9506899cb56da76ba
 }

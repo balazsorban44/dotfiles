@@ -122,9 +122,25 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 
+<<<<<<< HEAD
 # # Set Spaceship ZSH as a prompt
 # autoload -U promptinit; promptinit
 # prompt spaceship
+=======
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/balazs/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/home/balazs/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/balazs/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/balazs/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# added by travis gem
+[ -f /home/balazs/.travis/travis.sh ] && source /home/balazs/.travis/travis.sh
+
+
+fpath=($fpath "/home/balazs/.zfunctions")
+
+# Set Spaceship ZSH as a prompt
+>>>>>>> 16bb1e6139108a78210baed9506899cb56da76ba
 # SPACESHIP_BATTERY_SHOW="always"
 # SPACESHIP_DIR_TRUNC="2"
 SPACESHIP_TIME_SHOW="true"
@@ -151,7 +167,11 @@ SPACESHIP_PROMPT_ORDER=(
   # git # Git section (git_branch + git_status)
 )
 
+<<<<<<< HEAD
 export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/dotnet:$PATH"
 export DOTNET_ROOT="$HOME/dotnet"
 # fpath=($fpath "/home/balazs/.zfunctions")
 unsetopt PROMPT_SP
+=======
+export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+>>>>>>> 16bb1e6139108a78210baed9506899cb56da76ba

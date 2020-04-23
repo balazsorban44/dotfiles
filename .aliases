@@ -50,7 +50,7 @@ alias zarn="yarn"
 alias g="git"
 alias gs="git status"
 alias glog="git log --oneline --color | emojify | less -r"
-alias add="git add $1"
+alias add="git add"
 alias gr="git reset --hard"
 alias pull="git pull"
 alias push="git push"
@@ -74,3 +74,7 @@ alias vrc="vi ~/dotfiles/.vimrc"
 # Dev
 alias cs="code .;yarn start"
 alias myip="curl ifconfig.co;curl ifconfig.co/city"
+alias rmnm="find . -name "node_modules" -type d -prune -exec rm -rf '{}' +"
+
+# Typo
+alias zarn="yarn"
