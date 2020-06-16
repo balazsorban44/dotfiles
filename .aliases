@@ -13,10 +13,12 @@ alias plz="sudo"
 alias c="clear"
 alias s="yarn start"
 alias t="yarn test"
+alias b="yarn build"
 alias hl="hyperlayout"
 alias h="hyperlayout 2"
 alias d="yarn deploy"
 alias dd="yarn dev"
+alias yup="yarn upgrade-interactive --latest"
 
 # Move around
 alias ..="cd .."
@@ -45,6 +47,7 @@ alias pa="pr;TDT4240-group-24"
 alias op="pr;order-pages"
 alias ui="pr;ui"
 alias zarn="yarn"
+alias yarn-up="curl --compressed -o- -L https://yarnpkg.com/install.sh | bash"
 
 # Git related
 alias g="git"
