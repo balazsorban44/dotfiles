@@ -8,6 +8,7 @@ alias open="nautilus ."
 # alias ls="ls -lA"
 alias temp="cat /sys/class/thermal/thermal_zone*/temp"
 alias plz="sudo"
+alias free-space="sudo journalctl --vacuum-time=2d;sudo apt autoremove;sudo apt autoclean;rm -rf ~/.cache/thumbnails/*"
 
 # Super lazy
 alias c="clear"
@@ -48,6 +49,7 @@ alias op="pr;order-pages"
 alias ui="pr;ui"
 alias zarn="yarn"
 alias yarn-up="curl --compressed -o- -L https://yarnpkg.com/install.sh | bash"
+alias na="pr;cd nextauthjs/next-auth"
 
 # Git related
 alias g="git"
