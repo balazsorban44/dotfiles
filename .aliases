@@ -2,7 +2,7 @@
 alias b="xrandr --output eDP-1 --brightness $1"
 
 # OS
-alias up="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+alias up="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && omz update"
 alias install="sudo dpkg -i $1"
 alias open="nautilus ."
 # alias ls="ls -lA"
@@ -30,7 +30,7 @@ alias mv="mv -v"
 alias nhi="pr;@nhi"
 alias nel="pr;nel-ux-web"
 alias calc="nhi;calculators"
-
+alias shorten="pr;url-shortener;npm run shorten"
 # Personal
 alias ww="cd ~/projects/workzilla/web"
 alias 44="cd ~/projects/44"
